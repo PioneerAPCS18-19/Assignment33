@@ -19,7 +19,7 @@ Instance variables:
 1. Two doubles for the angles in the quadrilateral.
 
 Constructor:
-1. Takes an `ArrayList` of `Double`s for the sides and two `double`s for the two angles.
+1. Takes an `List` of `Double`s for the sides and two `double`s for the two angles.
 1. Initialize all values.
 
 Methods:
