@@ -78,9 +78,16 @@ public abstract class Polygon
 	{
 		String str = "";
 		
+		double[] arr = getSides();
+		
 		if(getNumSides() == 3)
 			str += "Triangle";
 		
+		else if(getNumSides() == 4 && getSides()[0] == getSides()[1] && getSides()[0] == getSides()[2] && getSides()[0] == getSides()[3])
+			str += "Square";
+		
+		else if(getNumSides() == 4 && getSides()[0] == getSides()[1] && getSides()[2] == getSides()[3])
+			str += "Rectangle";
 		
 		else if(getNumSides() == 4)
 			str += "Quadrilateral";
