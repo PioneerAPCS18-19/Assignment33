@@ -45,7 +45,7 @@ Constructor:
 
 ```
 Quadrilateral
-Area = 7.646152575178203
+Area = 9.068892539397945
 Perimeter = 17.75
 Number of sides: 4
 Sum of angles: 360
