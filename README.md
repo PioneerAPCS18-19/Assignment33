@@ -31,6 +31,8 @@ Where `a`, `b`, `c`, and `d` are the four sides, `s` is the semiperimeter (half 
 
 ![Diagram](https://i.imgur.com/sWmZpbM.png)
 
+**Note: the cosine method in the `Math` class for Java takes radians, not degrees.**
+
 ### Rectangle Class
 
 A `Rectangle` is a `Quadrilateral`.

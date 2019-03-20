@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import solutions.src.Polygon;
+import solutions.src.Quadrilateral;
+import solutions.src.Rectangle;
+
 public class Runner 
 {
 	public static void main(String[] args)
@@ -13,22 +17,22 @@ public class Runner
 		
 		// Quadrilateral
 		Polygon p = new Quadrilateral(sides, 30.0, 25.0);
-		System.out.println(p);
+		System.out.println(p + "\n");
 		
 		// Rectangle
 		sides.set(0, 6.5);
 		sides.set(1, 6.5);
 		sides.set(2, 3.0);
 		sides.set(3, 3.0);
-		Polygon p1 = new Rectangle(sides1);
-		System.out.println(p1);
+		Polygon p1 = new Rectangle(sides);
+		System.out.println(p1 + "\n");
 		
 		// Square
 		sides.set(0, 10.2);
 		sides.set(1, 10.2);
 		sides.set(2, 10.2);
 		sides.set(3, 10.2);
-		Polygon p2 = new Rectangle(sides1);
-		System.out.println(p2);
+		Polygon p2 = new Rectangle(sides);
+		System.out.println(p2 + "\n");
 	}
 }
