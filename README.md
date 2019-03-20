@@ -36,7 +36,7 @@ Where `a`, `b`, `c`, and `d` are the four sides, `s` is the semiperimeter (half 
 A `Rectangle` is a `Quadrilateral`.
 
 Constructor:
-1. Takes an `ArrayList` of `Double`s for the sides (l, l, w, w).
+1. Takes an `List` of `Double`s for the sides (l, l, w, w).
 1. Initialize all values.
 
 ### Sample Outputs
