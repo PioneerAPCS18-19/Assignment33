@@ -51,13 +51,13 @@ Number of sides: 4
 Sum of angles: 360
 
 Rectangle
-Area = 17.432934940210878
+Area = 19.5
 Perimeter = 19.0
 Number of sides: 4
 Sum of angles: 360
 
 Square
-Area = 93.01141288100203
+Area = 104.03999999999999
 Perimeter = 40.8
 Number of sides: 4
 Sum of angles: 360
