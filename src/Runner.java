@@ -16,7 +16,7 @@ public class Runner
 		sides.add(4.75);
 		
 		// Quadrilateral
-		Polygon p = new Quadrilateral(sides, 30.0, 25.0);
+		Polygon p = new Quadrilateral(sides, 0.5236 , 0.4363);
 		System.out.println(p + "\n");
 		
 		// Rectangle
