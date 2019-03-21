@@ -45,19 +45,19 @@ Constructor:
 
 ```
 Quadrilateral
-Area = 9.068892539397945
+Area = 8.963304797328124
 Perimeter = 17.75
 Number of sides: 4
 Sum of angles: 360
 
 Rectangle
-Area = 19.5
+Area = 17.432934940210878
 Perimeter = 19.0
 Number of sides: 4
 Sum of angles: 360
 
 Square
-Area = 104.03999999999999
+Area = 93.01141288100203
 Perimeter = 40.8
 Number of sides: 4
 Sum of angles: 360
