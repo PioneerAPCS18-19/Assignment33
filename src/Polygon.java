@@ -77,16 +77,15 @@ public abstract class Polygon
 	public String toString()
 	{
 		String str = "";
-		
-		double[] arr = getSides();
+		List<Double> s = new ArrayList<Double>(getSides());
 		
 		if(getNumSides() == 3)
 			str += "Triangle";
 		
-		else if(getNumSides() == 4 && getSides()[0] == getSides()[1] && getSides()[0] == getSides()[2] && getSides()[0] == getSides()[3])
+		else if(getNumSides() == 4 && s.get(0).equals(s.get(1)) && s.get(0).equals(s.get(2)) && s.get(0).equals(s.get(3)))
 			str += "Square";
 		
-		else if(getNumSides() == 4 && getSides()[0] == getSides()[1] && getSides()[2] == getSides()[3])
+		else if(getNumSides() == 4 && s.get(0).equals(s.get(1)) && s.get(2).equals(s.get(3)))
 			str += "Rectangle";
 		
 		else if(getNumSides() == 4)
