@@ -1,10 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import solutions.src.Polygon;
-import solutions.src.Quadrilateral;
-import solutions.src.Rectangle;
-
 public class Runner 
 {
 	public static void main(String[] args)
