@@ -1,7 +1,7 @@
 /**
  * Rectangle class
  * 
- * A Rectangle is a Polygon
+ * A Rectangle is a Qudrilateral
  * 
  * @author
  * @version
